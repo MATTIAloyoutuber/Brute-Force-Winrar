@@ -1,0 +1,6 @@
+import subprocess
+
+with open('lista di password ', 'r') as file:
+    passwords = file.readlines()
+    for password in passwords:
+        subprocess.run(['C:\\Program Files\\WinRAR\\WinRAR.exe', 'x', '-p' + password.strip(), 'file.rar'])
