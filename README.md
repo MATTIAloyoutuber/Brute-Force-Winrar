@@ -1,5 +1,7 @@
 Brute froce in python per sbloccare un .rar,
-ecco la spiegazione 
+ecco la spiegazione    
+
+
 import subprocess
 
 with open('lista di password.txt', 'r') as file:
